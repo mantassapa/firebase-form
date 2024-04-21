@@ -23,7 +23,7 @@ form{
   gap: 20px;
   display: flex;
   flex-direction: column;
-  border:  1px solid black;
+  border:  1px solid rgb(255, 255, 255);
   border-radius: 15px 0px 15px 15px;
   padding: 10px;
   background-color: rgb(81, 1, 1);
@@ -49,15 +49,15 @@ form>textarea{
 form>button{
   width: 100px;
   height: 30px;
-  border-radius: 5px px;
+  border-radius: 5px;
 }
 form>h3{
   text-align: center;
 }
 .contact_form>button{
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
   border-color: aliceblue;
-  margin-left: 273px;
+  margin-left: 275px;
 }
 .card_list{
   width: 100%;
@@ -87,7 +87,7 @@ footer{
   justify-content: center;
   align-items: center;
   bottom: 0px;
-  height: 55px;
+  height: 56px;
   width: 100%;
   background-color: rgb(81, 1, 1);
   z-index: 1;
